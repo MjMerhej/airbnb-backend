@@ -19,7 +19,7 @@ jobs:
     - name: Log in to DockerHub
       uses: docker/login-action@v2
       with:
-        username: pwrlabs
+        username: eliasabichakra
         password: ${{ secrets.DOCKERHUB_TOKEN }}
 
     - name: Build Docker image
