@@ -29,7 +29,7 @@ app.use(cors({
   credentials: true,
   origin: 'http://ec2-51-21-199-13.eu-north-1.compute.amazonaws.com',
 }));
-
+ 
 app.use(express.json());
 
 
