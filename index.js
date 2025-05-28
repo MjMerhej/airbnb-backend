@@ -27,7 +27,7 @@ app.use('/uploads', express.static(__dirname + '/uploads'));
 
 app.use(cors({
   credentials: true,
-  origin: 'http://ec2-13-60-19-58.eu-north-1.compute.amazonaws.com',
+  origin: 'http://ec2-13-53-64-182.eu-north-1.compute.amazonaws.com',
 }));
  
 app.use(express.json());
