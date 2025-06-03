@@ -44,3 +44,4 @@ placeSchema.post('findOneAndDelete', async function (doc) {
 const PlaceModel = mongoose.model('Place', placeSchema);
 
 module.exports = PlaceModel;
+
